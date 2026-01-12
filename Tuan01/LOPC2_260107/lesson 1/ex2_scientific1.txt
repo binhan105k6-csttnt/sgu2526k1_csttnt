@@ -30,7 +30,7 @@ from IPython import display # hiển thị rich output
 # generate randomly the center (x,y ) of circle, color, area
 N = 50
 x = np.random.rand(N)
-y = np.random.rand(N)
+y = np.ra#%%ndom.rand(N)
 colors = np.random.rand(N)
 area = np.pi * (15 * np.random.rand(N)) ** 2  # 0 to 15 point radii
 
